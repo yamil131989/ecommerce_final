@@ -1,1 +1,47 @@
+.banner{
+    background-size:contain;
+    background-position: center;
+    height: 75vh;
+    background-image:url("https://png.pngtree.com/thumb_back/fw800/background/20190221/ourmid/pngtree-blockchain-big-data-mobile-phone-technology-image_11331.jpg");
+    background-repeat:no-repeat;
+}
+.contenedorBanner{
+    text-align: center;
+    padding: 5% 0;    
+}
+.contenedorBanner h1{
+    margin: 0;
+    color: azure;
+    font-size: 80px;
+    font-weight: bold;
+}
+.contenedorBanner h2{
+    font-size: 75px;
+    color: azure;
 
+}
+.dolarHoy{
+    color: azure;
+    border: solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+        
+    justify-content: center;
+    align-content:center;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    margin-left:650px;
+
+    /* color_change */
+    animation-name: color_change;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+ @-webkit-keyframes color_change {
+    from { background-color: rgb(89, 124, 157); }
+    to { background-color: rgb(3, 130, 26); }
+}
