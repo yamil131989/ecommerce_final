@@ -78,7 +78,7 @@ fetch("https://dolarapi.com/v1/dolares/blue")
 function mostrarApi(data){ 
 
   const div = document.createElement("div")
-  div.className = "dolarBHoy"
+  div.className = "dolarHoy"
   div.innerHTML = `
   <h3> Dolar Blue $ ${data.compra}</h3>`
   dolarhoy.append(div)}
